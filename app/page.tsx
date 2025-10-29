@@ -53,7 +53,7 @@ export default function Home() {
               Why NextBlock
             </a>
             <a
-              href="https://github.com/Webman-Dev/nextblock"
+              href="https://github.com/Webman-Dev/nextblock-monorepo"
               className="text-sm text-gray-400 transition-colors hover:text-white"
             >
               GitHub
@@ -98,7 +98,7 @@ export default function Home() {
               asChild
               className="group h-12 gap-2 bg-linear-to-r from-blue-500 to-purple-600 px-8 text-base font-semibold text-white shadow-lg shadow-blue-500/25 transition-all hover:shadow-xl hover:shadow-blue-500/40"
             >
-              <a href="https://github.com/Webman-Dev/nextblock" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Webman-Dev/nextblock-monorepo" target="_blank" rel="noopener noreferrer">
                 <Github className="h-5 w-5" />
                 View on GitHub
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
@@ -374,7 +374,7 @@ export default function Home() {
                 asChild
                 className="group h-12 gap-2 bg-linear-to-r from-blue-500 to-purple-600 px-8 text-base font-semibold text-white shadow-lg shadow-blue-500/25 transition-all hover:shadow-xl hover:shadow-blue-500/40"
               >
-                <a href="https://github.com/Webman-Dev/nextblock" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/Webman-Dev/nextblock-monorepo" target="_blank" rel="noopener noreferrer">
                   <Github className="h-5 w-5" />
                   Get Started on GitHub
                   <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
@@ -424,18 +424,18 @@ export default function Home() {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="transition-colors hover:text-white">
+                  <a href="https://github.com/Webman-Dev/nextblock-monorepo/tree/master/docs" className="transition-colors hover:text-white">
                     Documentation
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="transition-colors hover:text-white">
+                  <a href="https://github.com/Webman-Dev/nextblock-monorepo/blob/master/README.md" className="transition-colors hover:text-white">
                     Migration Guide
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://github.com/Webman-Dev/nextblock"
+                    href="https://github.com/Webman-Dev/nextblock-monorepo"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="transition-colors hover:text-white"
@@ -449,7 +449,7 @@ export default function Home() {
               <h3 className="mb-4 font-semibold text-white">Community</h3>
               <ul className="space-y-2 text-sm text-gray-400">
                 <li>
-                  <a href="#" className="transition-colors hover:text-white">
+                  <a href="https://x.com/NextBlockCMS/bio" className="transition-colors hover:text-white">
                     About
                   </a>
                 </li>
@@ -460,12 +460,12 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="transition-colors hover:text-white"
                   >
-                    Blog
+                    Dev.to Blog
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://github.com/Webman-Dev/nextblock"
+                    href="https://github.com/Webman-Dev/nextblock-monorepo/discussions"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="transition-colors hover:text-white"
@@ -474,7 +474,10 @@ export default function Home() {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="transition-colors hover:text-white">
+                  <a
+                    href="mailto:info@nextblock.ca?subject=Interested%20in%20Nextblock%20-%20Request%20from%20website"
+                    className="transition-colors hover:text-white"
+                  >
                     Contact
                   </a>
                 </li>
@@ -484,7 +487,7 @@ export default function Home() {
               <h3 className="mb-4 font-semibold text-white">Connect</h3>
               <div className="flex gap-3">
                 <a
-                  href="https://github.com/Webman-Dev/nextblock"
+                  href="https://github.com/Webman-Dev/nextblock-monorepo"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex h-10 w-10 items-center justify-center rounded-lg border border-white/10 bg-white/5 text-gray-400 transition-all hover:border-white/20 hover:bg-white/10 hover:text-white"
